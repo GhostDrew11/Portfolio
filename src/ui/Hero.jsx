@@ -73,7 +73,7 @@ const StyledSpan = styled.span`
 //   "My name is Armel Hell, frontend developer based in Atlanta, GA. I've been passionated about web development, design and infography for about 5 years but was only observing from a far. I've been giving it a real shot for 3 years now and since then it's been an incredible journey of blending creativity, daily inspiration all around the web, learning and bettering myself everyday";
 
 const text =
-  "A software engineer specialized in frontend based in Atlanta, GA. I am passionated about transforming my everyday creativity into cut-edge user centric digital experiences. All while crafting efficient and seamless code. Welcome to my portfolio, where I showcase my creative canvas.";
+  "A software engineer specialized in frontend based in Atlanta, GA. I am passionate about transforming my everyday creativity into cut-edge user centric digital experiences. All while crafting efficient and seamless code. Welcome to my portfolio, where I showcase my creative canvas.";
 
 function Hero() {
   return (
