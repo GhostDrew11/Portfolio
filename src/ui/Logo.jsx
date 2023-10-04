@@ -1,11 +1,12 @@
 import { styled } from "styled-components";
 import Heading from "./Heading";
+import { NavHashLink } from "react-router-hash-link";
 
 const StyledLogo = styled.img`
   height: 8rem;
 `;
 
-const StyledLink = styled.a`
+const StyledLink = styled(NavHashLink)`
   &:link,
   &:visited {
     display: flex;
@@ -30,7 +31,7 @@ const StyledLink = styled.a`
 
 function Logo() {
   return (
-    <StyledLink href="#">
+    <StyledLink to="#">
       <StyledLogo alt="Portfolio Logo" src="/public/greeting-mel.png" />
       <Heading as="h3">Armel Hell</Heading>
     </StyledLink>
