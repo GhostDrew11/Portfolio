@@ -44,6 +44,7 @@ const GlobalStyles = createGlobalStyle`
       
       /* white */
       --color--white: rgb(255,255,255);
+      --color--white-50 : rgba(255, 255, 255, 0.97);
 
       /* grey */
       --color--grey-50: #f9fafb;

@@ -6,7 +6,6 @@ const StyledLogo = styled.img`
 `;
 
 const StyledLink = styled.a`
-  &,
   &:link,
   &:visited {
     display: flex;

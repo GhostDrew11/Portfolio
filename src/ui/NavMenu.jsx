@@ -12,7 +12,6 @@ const StyledNavMenu = styled.ul`
 `;
 
 const StyledNavLink = styled(NavHashLink)`
-  &,
   &:link,
   &:visited {
     display: inline-block;
@@ -29,7 +28,6 @@ const StyledNavLink = styled(NavHashLink)`
 `;
 
 const StyledNavCta = styled(NavHashLink)`
-  &,
   &:link,
   &:visited {
     display: inline-block;

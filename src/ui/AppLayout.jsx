@@ -9,6 +9,7 @@ import Cta from "./Cta";
 
 const StyledAppLayout = styled.div`
   height: 100dvh;
+  overflow-x: hidden;
 `;
 
 function AppLayout() {

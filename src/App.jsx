@@ -1,8 +1,5 @@
-import {
-  BrowserRouter,
-  RouterProvider,
-  createBrowserRouter,
-} from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+
 import GlobalStyles from "./styles/GlobalStyles";
 import AppLayout from "./ui/AppLayout";
 import Oasis from "./pages/Oasis";
@@ -12,6 +9,7 @@ import Forkify from "./pages/Forkify";
 import Bankist from "./pages/Bankist";
 import Mapty from "./pages/Mapty";
 import Error from "./pages/Error";
+import { StickyNavProvider } from "./contexts/StickyNavContext";
 
 const router = createBrowserRouter([
   {
@@ -53,10 +51,10 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <>
+    <StickyNavProvider>
       <GlobalStyles />
       <RouterProvider router={router} />
-    </>
+    </StickyNavProvider>
   );
 }
 

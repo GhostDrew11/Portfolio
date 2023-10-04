@@ -77,7 +77,7 @@ const text =
 
 function Hero() {
   return (
-    <StyledHero>
+    <StyledHero id="hero">
       <HeroContainer>
         <Heading as="h2">Hello There 👋🏽!</Heading>
         <Heading as="h1">
