@@ -210,10 +210,20 @@ function Mapty() {
 
             <StyledLinkList>
               <li>
-                <StyledLink>Live Site</StyledLink>
+                <StyledLink
+                  href="https://mapty-armel.netlify.app"
+                  target="_blank"
+                >
+                  Live Site
+                </StyledLink>
               </li>
               <li>
-                <StyledLink>GitHub</StyledLink>
+                <StyledLink
+                  href="https://github.com/GhostDrew11/Mapty-v1"
+                  target="_blank"
+                >
+                  GitHub
+                </StyledLink>
               </li>
             </StyledLinkList>
           </StyledDesc>

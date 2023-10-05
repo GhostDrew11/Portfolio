@@ -214,10 +214,20 @@ function Forkify() {
 
             <StyledLinkList>
               <li>
-                <StyledLink>Live Site</StyledLink>
+                <StyledLink
+                  href="https://forkify-armel.netlify.app"
+                  target="_blank"
+                >
+                  Live Site
+                </StyledLink>
               </li>
               <li>
-                <StyledLink>GitHub</StyledLink>
+                <StyledLink
+                  href="https://github.com/GhostDrew11/forkify-app"
+                  target="_blank"
+                >
+                  GitHub
+                </StyledLink>
               </li>
             </StyledLinkList>
           </StyledDesc>

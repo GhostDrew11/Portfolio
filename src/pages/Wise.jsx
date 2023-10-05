@@ -214,10 +214,20 @@ function Wise() {
 
             <StyledLinkList>
               <li>
-                <StyledLink>Live Site</StyledLink>
+                <StyledLink
+                  href="https://wise-armel.netlify.app"
+                  target="_blank"
+                >
+                  Live Site
+                </StyledLink>
               </li>
               <li>
-                <StyledLink>GitHub</StyledLink>
+                <StyledLink
+                  href="https://github.com/GhostDrew11/Wise"
+                  target="_blank"
+                >
+                  GitHub
+                </StyledLink>
               </li>
             </StyledLinkList>
           </StyledDesc>

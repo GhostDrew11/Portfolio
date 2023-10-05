@@ -214,10 +214,20 @@ function Pizza() {
 
             <StyledLinkList>
               <li>
-                <StyledLink>Live Site</StyledLink>
+                <StyledLink
+                  href="https://pizza-armel.netlify.app"
+                  target="_blank"
+                >
+                  Live Site
+                </StyledLink>
               </li>
               <li>
-                <StyledLink>GitHub</StyledLink>
+                <StyledLink
+                  href="https://github.com/GhostDrew11/Pizza"
+                  target="_blank"
+                >
+                  GitHub
+                </StyledLink>
               </li>
             </StyledLinkList>
           </StyledDesc>

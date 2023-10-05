@@ -217,10 +217,20 @@ function Oasis() {
 
             <StyledLinkList>
               <li>
-                <StyledLink>Live Site</StyledLink>
+                <StyledLink
+                  href="https://oasis-armel.netlify.app"
+                  target="_blank"
+                >
+                  Live Site
+                </StyledLink>
               </li>
               <li>
-                <StyledLink>GitHub</StyledLink>
+                <StyledLink
+                  href="https://github.com/GhostDrew11/oasis"
+                  target="_blank"
+                >
+                  GitHub
+                </StyledLink>
               </li>
             </StyledLinkList>
           </StyledDesc>
