@@ -16,7 +16,7 @@ const Overlay = styled.div`
     width: 100%;
     height: 100dvh;
     background-color: var(--backdrop-color);
-    backdrop-filter: blur(0.4rem);
+    backdrop-filter: blur(0.9rem);
     z-index: 1000;
     transition: all 0.3s;
   }

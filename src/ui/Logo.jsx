@@ -36,7 +36,7 @@ const StyledLink = styled(NavHashLink)`
 function Logo() {
   return (
     <StyledLink to="#">
-      <StyledLogo alt="Portfolio Logo" src="/public/greeting-mel.png" />
+      <StyledLogo alt="Portfolio Logo" src="/greeting-mel.png" />
       <Heading as="h3">Armel Hell</Heading>
     </StyledLink>
   );

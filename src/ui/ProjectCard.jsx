@@ -68,11 +68,6 @@ const StyledLogo = styled.img`
   width: 35rem;
   height: 15rem;
   object-fit: contain;
-
-  /* @media (max-width: 69em) {
-    width: 20rem;
-    height: 10rem;
-  } */
 `;
 
 const CardContent = styled.div`
