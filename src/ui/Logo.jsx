@@ -22,7 +22,11 @@ const StyledLink = styled(NavHashLink)`
     color: var(--color--purple-700);
   }
 
-  @media (max-width: 34em) {
+  @media (max-width: 59em) {
+    z-index: 1001;
+  }
+
+  @media (max-width: 53em) {
     ${Heading} {
       display: none;
     }

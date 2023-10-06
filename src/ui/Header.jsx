@@ -34,7 +34,7 @@ function Header() {
   const { isSticky } = useStickyNav();
 
   return (
-    <StyledHeader $sticky={isSticky}>
+    <StyledHeader $sticky={isSticky} id="header">
       <Logo />
       <NavMenu />
       <MobileNav />

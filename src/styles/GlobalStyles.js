@@ -48,11 +48,17 @@ const GlobalStyles = createGlobalStyle`
 
       /* grey */
       --color--grey-50: #f9fafb;
+
+      --backdrop-color: rgba(255,255,255, 0.1)
     }
 
     &.dark-mode {
 
     }
+
+    --border-radius-xl: 1rem;
+    --border-radius-lg: 0.9rem;
+    --border-radius-md: 0.4rem;
 }
 
 *,
@@ -85,9 +91,6 @@ body {
     line-height: 1;
     background-color: var(--color--white);
     color: var(--color--slate-700);
-    /* background-color: var(--color--purple-400);
-    color: var(--color--slate-50); */
-    
 }
 
 ul {

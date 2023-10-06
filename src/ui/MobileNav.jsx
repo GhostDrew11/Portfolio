@@ -1,6 +1,8 @@
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { styled } from "styled-components";
+import ModalNav from "./ModalNav";
+import NavList from "./NavList";
 
 const StyledMenu = styled.div`
   display: none;
@@ -14,7 +16,6 @@ const StyledIcon = styled(FontAwesomeIcon)`
   width: 4.8rem;
   height: 4.8rem;
   color: var(--color--slate-900);
-  /* color: var(--color--purple-700); */
 
   &:hover {
     color: var(--color--purple-700);
@@ -24,9 +25,26 @@ const StyledIcon = styled(FontAwesomeIcon)`
 function MobileNav() {
   return (
     <StyledMenu>
-      <StyledIcon icon={faBars} />
+      <ModalNav>
+        <ModalNav.Open opens="nav-menu">
+          <StyledIcon icon={faBars} />
+        </ModalNav.Open>
+        <ModalNav.Window name="nav-menu">
+          <NavList />
+        </ModalNav.Window>
+      </ModalNav>
     </StyledMenu>
   );
 }
 
 export default MobileNav;
+
+// function MobileNav() {
+//   return (
+//     <StyledMenu>
+//       <StyledIcon icon={faBars} />
+//     </StyledMenu>
+//   );
+// }
+
+// export default MobileNav;
