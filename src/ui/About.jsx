@@ -113,16 +113,16 @@ const StyledImg = styled.img`
 `;
 
 const desc1 =
-  "For the past five years, my passion has revolved around web development, frontend work, and UI/UX design. Initially, I observed these fields from afar, but it wasn't until my junior year of college, roughly three years ago, that I decided to dive in headfirst. After graduating, I secured a position as a frontend engineer at Itential, where I collaborated with incredibly talented individuals to simplify and scale network automation through Itential's web application suite.";
+  "For the past five years my passion has revolved around software engineering, web development, front-end work, and UI/UX design. Initially, I observed these fields from afar but it wasn't until my junior year of college that I decided to dive in headfirst. After graduating I secured a position as a front-end engineer at Itential, where I collaborated with incredibly talented individuals to simplify and scale network automation through Itential's web application suite.";
 
 const desc2 =
-  "Unfortunately, I was unexpectedly laid off in May 2023 due to budget cuts. This setback only fueled my determination to learn more. I went back to the basics, starting with HTML and CSS and working my way up to React and React Native, all in an effort to enhance my software engineering skills and deepen my understanding of web development and design fundamentals.";
+  "Unfortunately, I was laid off in May 2023 due to budget cuts. This setback fueled my determination to learn more. I went back to the basics, starting with HTML and CSS and working my way up to React and React Native, in an effort to enhance my software engineering skills and deepen my understanding of web development and design fundamentals.";
 
 const desc3 =
-  "Today, as I actively seek new opportunities, my focus remains on building diverse, accessible, and inclusive products, including websites and web/mobile applications. Guided by curiosity, creativity, and the desire for self-improvement, I strive to contribute to the tech world.";
+  "Today, as I seek new opportunities my focus remains on building diverse, accessible, and inclusive products, such as websites and web/mobile applications. Guided by curiosity, creativity, and the desire for self-improvement, I strive to contribute to the tech world.";
 
 const desc4 =
-  "When I'm not coding or exploring new tech stacks, I enjoy playing basketball, reading books on subjects like love, mental toughness, discipline, sports, and spirituality, or spending quality time with friends and family.";
+  "When I'm not coding or exploring new tech stacks, I enjoy playing basketball, reading, self development, sports, and spirituality, or spending quality time with friends and family.";
 
 function About() {
   return (

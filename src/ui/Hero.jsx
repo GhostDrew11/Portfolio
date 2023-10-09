@@ -69,11 +69,8 @@ const StyledSpan = styled.span`
   color: var(--color--purple-700);
 `;
 
-// const text =
-//   "My name is Armel Hell, frontend developer based in Atlanta, GA. I've been passionated about web development, design and infography for about 5 years but was only observing from a far. I've been giving it a real shot for 3 years now and since then it's been an incredible journey of blending creativity, daily inspiration all around the web, learning and bettering myself everyday";
-
 const text =
-  "A software engineer specialized in frontend based in Atlanta, GA. I am passionate about transforming my everyday creativity into cut-edge user centric digital experiences. All while crafting efficient and seamless code. Welcome to my portfolio, where I showcase my creative canvas.";
+  "I am a software engineer specialized in front end based in Atlanta, GA. I am passionate about transforming my everyday creativity into cutting edge, user centric, digital experiences, all while crafting efficient and seamless code. Welcome to my portfolio, where I showcase my innovative canvas.";
 
 function Hero() {
   return (
@@ -81,7 +78,7 @@ function Hero() {
       <HeroContainer>
         <Heading as="h2">Hello There 👋🏽!</Heading>
         <Heading as="h1">
-          I am <StyledSpan>Armel Hell,</StyledSpan>
+          I am <StyledSpan>Armel Hell</StyledSpan>
         </Heading>
         <StyledDescription>{text}</StyledDescription>
         <StyledNavCta smooth to="#about">

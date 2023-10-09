@@ -66,9 +66,9 @@ function Cta() {
           <StyledSpan>Get In Touch</StyledSpan>
         </Heading>
         <StyledP>
-          I'm currently looking for a new position. Besides from that, if you'd
-          like me to collaborate on a project, or even just say hello? Feel free
-          to shoot me an email, I'll do my best to reach back out! 🤗
+          I am currently looking for a new position. If you would like to
+          collaborate with me on a project, or even just say hello, feel free to
+          shoot me an email and I'll will respond! 🤗
         </StyledP>
         <StyledLinkButton href="mailto:armelhell@gmail.com">
           Shoot
