@@ -6,6 +6,7 @@ import Stacks from "./Stacks";
 import Projects from "./Projects";
 import Footer from "./Footer";
 import Cta from "./Cta";
+import { StickyNavProvider } from "../contexts/StickyNavContext";
 
 const StyledAppLayout = styled.div`
   height: 100dvh;
@@ -14,15 +15,17 @@ const StyledAppLayout = styled.div`
 
 function AppLayout() {
   return (
-    <StyledAppLayout>
-      <Header />
-      <Hero />
-      <About />
-      <Stacks />
-      <Projects />
-      <Cta />
-      <Footer />
-    </StyledAppLayout>
+    <StickyNavProvider>
+      <StyledAppLayout>
+        <Header />
+        <Hero />
+        <About />
+        <Stacks />
+        <Projects />
+        <Cta />
+        <Footer />
+      </StyledAppLayout>
+    </StickyNavProvider>
   );
 }
 

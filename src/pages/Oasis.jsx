@@ -163,7 +163,6 @@ const StyledLinkList = styled.ul`
 `;
 
 const StyledLink = styled.a`
-  &,
   &:link,
   &:visited {
     display: inline-block;
@@ -191,7 +190,7 @@ function Oasis() {
   return (
     <StyledDiv>
       <StyledContainer>
-        <LinkButton to="-1" />
+        <LinkButton />
 
         <StyledGrid>
           <StyledWrapper>

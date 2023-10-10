@@ -28,20 +28,17 @@ const StyledButton = styled.button`
   }
 `;
 
-function LinkButton({ to }) {
+function LinkButton() {
   const navigate = useNavigate();
 
-  if (to === "-1")
-    return (
-      <StyledButton onClick={() => navigate(-1)}>
-        <StyledIcon icon={faChevronLeft} />
-        <Heading as="h4" className="page">
-          Home
-        </Heading>
-      </StyledButton>
-    );
-
-  return <Link to={to}>{children}</Link>;
+  return (
+    <StyledButton onClick={() => navigate(-1)}>
+      <StyledIcon icon={faChevronLeft} />
+      <Heading as="h4" className="page">
+        Home
+      </Heading>
+    </StyledButton>
+  );
 }
 
 export default LinkButton;

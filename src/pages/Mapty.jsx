@@ -160,8 +160,8 @@ const StyledLinkList = styled.ul`
   justify-content: flex-end;
   gap: 1.6rem;
 `;
+
 const StyledLink = styled.a`
-  &,
   &:link,
   &:visited {
     display: inline-block;
@@ -189,7 +189,7 @@ function Mapty() {
   return (
     <StyledDiv>
       <StyledContainer>
-        <LinkButton to="-1" />
+        <LinkButton />
 
         <StyledGrid>
           <StyledWrapper>

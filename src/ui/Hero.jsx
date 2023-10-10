@@ -45,7 +45,6 @@ const StyledDescription = styled.p`
 `;
 
 const StyledNavCta = styled(NavHashLink)`
-  &,
   &:link,
   &:visited {
     display: inline-block;

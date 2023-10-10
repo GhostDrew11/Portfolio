@@ -162,7 +162,6 @@ const StyledLinkList = styled.ul`
 `;
 
 const StyledLink = styled.a`
-  &,
   &:link,
   &:visited {
     display: inline-block;
@@ -190,7 +189,7 @@ function Forkify() {
   return (
     <StyledDiv>
       <StyledContainer>
-        <LinkButton to="-1" />
+        <LinkButton />
 
         <StyledGrid>
           <StyledWrapper>

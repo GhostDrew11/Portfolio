@@ -38,7 +38,6 @@ const StyledP = styled.p`
 `;
 
 const StyledLinkButton = styled.a`
-  &,
   &:link,
   &:visited {
     display: inline-block;
