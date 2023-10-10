@@ -38,13 +38,3 @@ function MobileNav() {
 }
 
 export default MobileNav;
-
-// function MobileNav() {
-//   return (
-//     <StyledMenu>
-//       <StyledIcon icon={faBars} />
-//     </StyledMenu>
-//   );
-// }
-
-// export default MobileNav;

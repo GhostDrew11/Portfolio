@@ -3,7 +3,27 @@ import { useOutsideClick } from "../hooks/useOutsideClick";
 import { createPortal } from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faX } from "@fortawesome/free-solid-svg-icons";
-import { styled } from "styled-components";
+import { keyframes, styled } from "styled-components";
+
+const slideIn = keyframes`
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.50;
+  }
+  75% {
+   opacity: 0.75;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+`;
 
 const Overlay = styled.div`
   display: none;
@@ -19,7 +39,6 @@ const Overlay = styled.div`
     -webkit-backdrop-filter: blur(0.9rem);
     backdrop-filter: blur(0.9rem);
     z-index: 1000;
-    transition: all 0.3s;
   }
 `;
 
@@ -30,6 +49,8 @@ const StyledNavBar = styled.div`
   bottom: 0;
   width: 70dvw;
   height: 100dvh;
+  box-shadow: -0.8rem 0.1rem 0.3rem 0 var(--color--purple-200-shadow);
+  animation: ${slideIn} 0.6s ease-in;
   background-color: var(--color--purple-200);
 `;
 

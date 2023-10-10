@@ -21,6 +21,7 @@ const GlobalStyles = createGlobalStyle`
       --color--purple-50: #faf5ff;
       --color--purple-100: #f3e8ff;
       --color--purple-200: #e9d5ff;
+      --color--purple-200-shadow: 	rgb(233, 213, 255, 0.1);
       --color--purple-300: #d8b4fe;
       --color--purple-400: #c084fc;
       --color--purple-500: #a855f7;
