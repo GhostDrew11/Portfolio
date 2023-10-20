@@ -9,6 +9,7 @@ import Forkify from "./pages/Forkify";
 import Bankist from "./pages/Bankist";
 import Mapty from "./pages/Mapty";
 import Error from "./pages/Error";
+import { DarkModeProvider } from "./contexts/DarkModeContext";
 
 const router = createBrowserRouter([
   {
@@ -50,10 +51,10 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <>
+    <DarkModeProvider>
       <GlobalStyles />
       <RouterProvider router={router} />
-    </>
+    </DarkModeProvider>
   );
 }
 

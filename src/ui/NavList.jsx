@@ -1,5 +1,8 @@
+import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NavHashLink } from "react-router-hash-link";
 import { styled } from "styled-components";
+import { useDarkMode } from "../contexts/DarkModeContext";
 
 const StyledNavLink = styled(NavHashLink)`
   &:link,
@@ -37,7 +40,24 @@ const StyledNavCta = styled(NavHashLink)`
   }
 `;
 
+const StyledIcon = styled(FontAwesomeIcon)`
+  width: 3.6rem;
+  height: 3.6rem;
+  color: var(--color--slate-600);
+
+  &:hover {
+    color: var(--color--purple-700);
+  }
+`;
+
 function NavList({ onCloseModal }) {
+  const { isDarkMode, toggleDarkMode } = useDarkMode();
+
+  const handleOnClick = () => {
+    toggleDarkMode();
+    onCloseModal?.();
+  };
+
   return (
     <>
       <li>
@@ -59,6 +79,12 @@ function NavList({ onCloseModal }) {
         <StyledNavCta smooth to="#cta" onClick={() => onCloseModal?.()}>
           Contact me
         </StyledNavCta>
+      </li>
+      <li>
+        <StyledIcon
+          icon={isDarkMode ? faSun : faMoon}
+          onClick={handleOnClick}
+        />
       </li>
     </>
   );
