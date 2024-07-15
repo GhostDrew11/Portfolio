@@ -28,8 +28,8 @@ const StacksDescription = styled.p`
 
 const StackGrid = styled.div`
   display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  gap: 4.8rem;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 6.4rem;
 `;
 
 const StackRow = styled.div`
@@ -82,34 +82,30 @@ function Stacks() {
             <Logo src="Skills/js-svgrepo-com.svg" alt="JavaScript" />
           </StackRow>
           <StackRow>
-            <Logo src="Skills/react-svgrepo-com.svg" alt="React" />
-            <Logo src="Skills/angular-svgrepo-com.svg" alt="Angular" />
             <Logo
               src="Skills/typescript-icon-svgrepo-com.svg"
               alt="TypeScript"
             />
-            <Logo src="Skills/python-svgrepo-com.svg" alt="Python" />
-          </StackRow>
-          <StackRow>
             <Logo src="Skills/node-js-svgrepo-com.svg" alt="NodeJs" />
+            <Logo src="Skills/go-svgrepo-com.svg" alt="Golang" />
             <Logo
               className="mongo"
               src="Skills/MongoDB_Logomark_SpringGreen.svg"
               alt="MongoDB"
             />
-            <Logo
-              className="post"
-              src="Skills/postgresql-svgrepo-com.svg"
-              alt="PostgreSQL"
-            />
-            <Logo src="Skills/postman-icon-svgrepo-com.svg" alt="Python" />
           </StackRow>
           <StackRow>
+            <Logo src="Skills/react-svgrepo-com.svg" alt="React" />
+            <Logo src="Skills/next-js-svgrepo-com.svg" alt="Next.js" />
+            <Logo src="Skills/figma-svgrepo-com.svg" alt="Figma" />
+            <Logo src="Skills/postman-icon-svgrepo-com.svg" alt="Postman" />
+          </StackRow>
+          {/* <StackRow>
             <Logo src="Skills/figma-svgrepo-com.svg" alt="Figma" />
             <Logo src="Skills/git-icon-svgrepo-com.svg" alt="Git" />
             <Logo src="Skills/jest-svgrepo-com.svg" alt="Jest" />
             <Logo src="Skills/cypress-svgrepo-com.svg" alt="Cypress" />
-          </StackRow>
+          </StackRow> */}
         </StackGrid>
       </StacksContainer>
     </StyledStacks>
