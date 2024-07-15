@@ -189,7 +189,7 @@ function Vigor() {
   return (
     <StyledDiv>
       <StyledContainer>
-        <LinkButton />
+        {/* <LinkButton /> */}
 
         <StyledGrid>
           <StyledWrapper>

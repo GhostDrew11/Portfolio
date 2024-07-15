@@ -34,7 +34,7 @@ const StackGrid = styled.div`
 
 const StackRow = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 `;
 
 const Logo = styled.img`

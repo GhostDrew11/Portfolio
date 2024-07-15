@@ -2,6 +2,7 @@ import { styled } from "styled-components";
 import Heading from "./Heading";
 import ProjectCard from "./ProjectCard";
 import { Link } from "react-router-dom";
+import Vigor from "../pages/Vigor";
 
 const StyledProjects = styled.section`
   padding: 20.8rem 0;
@@ -44,6 +45,19 @@ const projects = [
   },
 ];
 
+function Projects() {
+  return (
+    <StyledProjects id="projects">
+      <ProjectsContainer>
+        <Heading as="h4">Projects</Heading>
+        <Vigor />
+      </ProjectsContainer>
+    </StyledProjects>
+  );
+}
+
+export default Projects;
+
 // const projects = [
 //   {
 //     id: 0,
@@ -83,27 +97,27 @@ const projects = [
 //   },
 // ];
 
-function Projects() {
-  return (
-    <StyledProjects id="projects">
-      <ProjectsContainer>
-        <Heading as="h4">Projects</Heading>
-        <ProjectsGrid>
-          {projects.map((project) => (
-            <li key={project.id}>
-              <Link to={project.path}>
-                <ProjectCard
-                  logo={project.logo}
-                  title={project.title}
-                  description={project.description}
-                />
-              </Link>
-            </li>
-          ))}
-        </ProjectsGrid>
-      </ProjectsContainer>
-    </StyledProjects>
-  );
-}
+// function Projects() {
+//   return (
+//     <StyledProjects id="projects">
+//       <ProjectsContainer>
+//         <Heading as="h4">Projects</Heading>
+//         <ProjectsGrid>
+//           {projects.map((project) => (
+//             <li key={project.id}>
+//               <Link to={project.path}>
+//                 <ProjectCard
+//                   logo={project.logo}
+//                   title={project.title}
+//                   description={project.description}
+//                 />
+//               </Link>
+//             </li>
+//           ))}
+//         </ProjectsGrid>
+//       </ProjectsContainer>
+//     </StyledProjects>
+//   );
+// }
 
-export default Projects;
+// export default Projects;
