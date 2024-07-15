@@ -62,7 +62,7 @@ function Footer() {
     <StyledFooter>
       <FooterContainer>
         <StyledContent>
-          <Copyright>Copyright &copy; 2023 MelXYZ.Inc</Copyright>
+          <Copyright>Copyright &copy; 2024 MelXYZ.Inc</Copyright>
           <StyledIconList>
             <li>
               <a href="https://www.linkedin.com/in/armelhell/" target="_blank">
