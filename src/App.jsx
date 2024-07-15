@@ -10,6 +10,7 @@ import Bankist from "./pages/Bankist";
 import Mapty from "./pages/Mapty";
 import Error from "./pages/Error";
 import { DarkModeProvider } from "./contexts/DarkModeContext";
+import Vigor from "./pages/Vigor";
 
 const router = createBrowserRouter([
   {
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/projects/pizza",
-    element: <Pizza />,
+    element: <Vigor />,
     errorElement: <Error />,
   },
   {

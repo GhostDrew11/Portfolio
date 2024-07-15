@@ -38,41 +38,50 @@ const ProjectsGrid = styled.ul`
 const projects = [
   {
     id: 0,
-    logo: "/Projects_logos/wild-oasis.png",
-    title: "The Wild Oasis",
-    path: "/projects/oasis",
-  },
-  {
-    id: 1,
-    logo: "/Projects_logos/fastreactpizza.png",
-    title: "Fast React Pizza",
+    logo: "/Projects_logos/vigor.png",
+    title: "Vigor Strength",
     path: "/projects/pizza",
   },
-  {
-    id: 2,
-    logo: "/Projects_logos/worldwise.png",
-    title: "World Wise",
-    path: "/projects/wise",
-  },
-  {
-    id: 3,
-    logo: "/Projects_logos/forkify.png",
-    title: "Forkify",
-    path: "/projects/forkify",
-  },
-  {
-    id: 4,
-    logo: "/Projects_logos/bankist.png",
-    title: "Bankist",
-    path: "/projects/bankist",
-  },
-  {
-    id: 5,
-    logo: "/Projects_logos/mapty.png",
-    title: "Mapty",
-    path: "/projects/mapty",
-  },
 ];
+
+// const projects = [
+//   {
+//     id: 0,
+//     logo: "/Projects_logos/wild-oasis.png",
+//     title: "The Wild Oasis",
+//     path: "/projects/oasis",
+//   },
+//   {
+//     id: 1,
+//     logo: "/Projects_logos/vigor.png",
+//     title: "Vigor Strength",
+//     path: "/projects/pizza",
+//   },
+//   {
+//     id: 2,
+//     logo: "/Projects_logos/worldwise.png",
+//     title: "World Wise",
+//     path: "/projects/wise",
+//   },
+//   {
+//     id: 3,
+//     logo: "/Projects_logos/forkify.png",
+//     title: "Forkify",
+//     path: "/projects/forkify",
+//   },
+//   {
+//     id: 4,
+//     logo: "/Projects_logos/bankist.png",
+//     title: "Bankist",
+//     path: "/projects/bankist",
+//   },
+//   {
+//     id: 5,
+//     logo: "/Projects_logos/mapty.png",
+//     title: "Mapty",
+//     path: "/projects/mapty",
+//   },
+// ];
 
 function Projects() {
   return (
