@@ -29,7 +29,7 @@ const StacksDescription = styled.p`
 const StackGrid = styled.div`
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-  gap: 6.4rem;
+  gap: 9.6rem;
 `;
 
 const StackRow = styled.div`

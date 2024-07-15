@@ -116,7 +116,7 @@ const desc1 =
   "For the past five years my passion has revolved around software engineering, web development, front-end work, and UI/UX design. Initially, I observed these fields from afar but it wasn't until my junior year of college that I decided to dive in headfirst. After graduating I secured a position as a front-end engineer at Itential, where I collaborated with incredibly talented individuals to simplify and scale network automation through Itential's web application suite.";
 
 const desc2 =
-  "Unfortunately, I was laid off in May 2023 due to budget cuts. This setback fueled my determination to learn more. I went back to the basics, starting with HTML and CSS and working my way up to React and React Native, in an effort to enhance my software engineering skills and deepen my understanding of web development and design fundamentals.";
+  "Driven by curiosity to combine technology with sports and nutrition, I began working on the VigorStrength App project as a hobby. This project has evolved into an impressive two-layer platform: a mobile app for customers and a SaaS platform for admins. The mobile app delivers workout and nutritional programs, while the SaaS platform allows admins to upload these programs, analyze sales, and conduct research through data.";
 
 const desc3 =
   "Today, as I seek new opportunities my focus remains on building diverse, accessible, and inclusive products, such as websites and web/mobile applications. Guided by curiosity, creativity, and the desire for self-improvement, I strive to contribute to the tech world.";
