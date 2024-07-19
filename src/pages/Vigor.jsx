@@ -206,7 +206,7 @@ function Vigor() {
             <StyledImgWrapper>
               <StyledVideo controls>
                 <source
-                  src="/Projects_img/VigorAppDemo2.mv4"
+                  src="/Projects_img/VigorAppDemo2.m4v"
                   type="video/mp4"
                 />
               </StyledVideo>
