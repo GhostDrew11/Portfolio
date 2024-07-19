@@ -226,7 +226,7 @@ function Vigor() {
             <StyledLinkList>
               <li>
                 <StyledLink
-                  href="https://pizza-armel.netlify.app"
+                  href="https://github.com/GhostDrew11/vigor-api"
                   target="_blank"
                 >
                   BackEnd
@@ -234,7 +234,7 @@ function Vigor() {
               </li>
               <li>
                 <StyledLink
-                  href="https://github.com/GhostDrew11/Pizza"
+                  href="https://github.com/GhostDrew11/VigorStrengthApp"
                   target="_blank"
                 >
                   FrontEnd
