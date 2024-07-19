@@ -100,6 +100,16 @@ const StyledImg = styled.img`
   }
 `;
 
+const StyledVideo = styled.video`
+  width: 100%;
+  height: 100%;
+  border-radius: 0.4rem;
+
+  @media (max-width: 44em) {
+    filter: blur(0.2rem);
+  }
+`;
+
 const StyledDesc = styled.div`
   z-index: 1;
   text-align: right;
@@ -194,10 +204,12 @@ function Vigor() {
         <StyledGrid>
           <StyledWrapper>
             <StyledImgWrapper>
-              <StyledImg
-                src="/Projects_img/VigorStrengthAPP.png"
-                alt="Vigor App Screenshot"
-              />
+              <StyledVideo controls>
+                <source
+                  src="/Projects_img/VigorAppDemo2.mv4"
+                  type="video/mp4"
+                />
+              </StyledVideo>
             </StyledImgWrapper>
           </StyledWrapper>
 
