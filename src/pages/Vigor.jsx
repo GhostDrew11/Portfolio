@@ -1,5 +1,4 @@
 import { keyframes, styled } from "styled-components";
-import LinkButton from "../ui/LinkButton";
 import Heading from "../ui/Heading";
 
 const StyledDiv = styled.div`
@@ -138,6 +137,7 @@ const StyledParagraph = styled.p`
   margin-bottom: 3.2rem;
   background-color: var(--color--purple-200);
   padding: 3.2rem 2.4rem;
+  text-align: justify;
 `;
 
 const StyledStackList = styled.ul`
@@ -148,7 +148,7 @@ const StyledStackList = styled.ul`
 
   li {
     font-weight: 500;
-    color: var(--color--slate-900);
+    color: var(--color--purple-700);
   }
 
   @media (max-width: 59em) {
@@ -193,14 +193,12 @@ const StyledLink = styled.a`
 `;
 
 const desc =
-  "Single page responsive web application allowing user to make pizza orders from displayed menu. They are also allowed to monitor their cart(order all items, delete some items, clear the cart), monitor their order status after confirmation and filling out their personal information. The app utilizes a pre-existing REST API ";
+  "From blending my passions for sport and programming, and inspired by curiosity and the challenge of integrating these interests, was born Vigor. It's a fitness app that lets users track workouts and meals, create custom routines, monitor progress, and view workout history. Vigor also includes social features for connecting with friends and sharing progress. The app features a Go backend with MongoDB and Firebase for media storage, and a React Native frontend using TypeScript, Tanstack Query and React Context API. Currently in development, Vigor will be released soon.";
 
 function Vigor() {
   return (
     <StyledDiv>
       <StyledContainer>
-        {/* <LinkButton /> */}
-
         <StyledGrid>
           <StyledWrapper>
             <StyledImgWrapper>
@@ -218,10 +216,11 @@ function Vigor() {
             <StyledParagraph>{desc}</StyledParagraph>
 
             <StyledStackList>
-              <li>React</li>
-              <li>React Router</li>
-              <li>Redux</li>
-              <li>Tailwind CSS</li>
+              <li>Go</li>
+              <li>MongoDB</li>
+              <li>FireBase</li>
+              <li>React Native</li>
+              <li>TypeScript</li>
             </StyledStackList>
 
             <StyledLinkList>
@@ -230,7 +229,7 @@ function Vigor() {
                   href="https://pizza-armel.netlify.app"
                   target="_blank"
                 >
-                  Live Site
+                  BackEnd
                 </StyledLink>
               </li>
               <li>
@@ -238,7 +237,7 @@ function Vigor() {
                   href="https://github.com/GhostDrew11/Pizza"
                   target="_blank"
                 >
-                  GitHub
+                  FrontEnd
                 </StyledLink>
               </li>
             </StyledLinkList>
