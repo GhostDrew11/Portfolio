@@ -1,7 +1,5 @@
 import { styled } from "styled-components";
 import Heading from "./Heading";
-import ProjectCard from "./ProjectCard";
-import { Link } from "react-router-dom";
 import Vigor from "../pages/Vigor";
 
 const StyledProjects = styled.section`
@@ -50,8 +48,10 @@ function Projects() {
   return (
     <StyledProjects id="projects">
       <ProjectsContainer>
-        <Heading as="h4">Projects</Heading>
-        <Vigor />
+        <ProjectsGrid>
+          <Heading as="h4">Projects</Heading>
+          <Vigor />
+        </ProjectsGrid>
       </ProjectsContainer>
     </StyledProjects>
   );

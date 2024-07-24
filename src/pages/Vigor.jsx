@@ -89,16 +89,6 @@ const StyledImgWrapper = styled.div`
   }
 `;
 
-const StyledImg = styled.img`
-  width: 100%;
-  height: 100%;
-  border-radius: 0.4rem;
-
-  @media (max-width: 44em) {
-    filter: blur(0.2rem);
-  }
-`;
-
 const StyledVideo = styled.video`
   width: 100%;
   height: 100%;
