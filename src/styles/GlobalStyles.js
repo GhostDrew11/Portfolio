@@ -19,6 +19,7 @@ const GlobalStyles = createGlobalStyle`
      
       --color--purple-200: #e9d5ff;
       --color--purple-250: #e9d5ff;
+      --color--purple-251: #e9d5ff;
       --color--purple-200-shadow: 	rgb(233, 213, 255, 0.1);
       --color--purple-450: #c084fc;
       --color--purple-400: #c084fc;
@@ -48,6 +49,7 @@ const GlobalStyles = createGlobalStyle`
     &.dark-mode {
       --color--purple-200: rgb(254,240,138, 0.8);
       --color--purple-250: #0A0A0A;
+      --color--purple-251: #16191d;
       --color--purple-400: #334155;
       --color--purple-450: #facc15;
       --color--purple-700:  rgb(250,204,21);
@@ -61,7 +63,7 @@ const GlobalStyles = createGlobalStyle`
 
       /* white */
       --color--white-50: rgba(0,0,0,.8);
-      --color--white-25: #0a0a0a;
+      --color--white-25: #16191d;
     }
 
     --border-radius-xl: 1rem;
