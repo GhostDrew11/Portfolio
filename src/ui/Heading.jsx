@@ -22,7 +22,7 @@ const Heading = styled.h1`
       line-height: 1.2;
       margin-bottom: 0.8rem;
       padding-top: 4.6rem;
-      color: var(--color--slate-700);
+      color: var(--color--slate-750);
 
       @media (max-width: 34em) {
         font-size: 3rem;

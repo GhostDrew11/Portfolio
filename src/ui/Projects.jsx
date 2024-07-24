@@ -6,6 +6,7 @@ import Vigor from "../pages/Vigor";
 
 const StyledProjects = styled.section`
   padding: 20.8rem 0;
+  background-color: var(--color--white-25);
 `;
 
 const ProjectsContainer = styled.div`

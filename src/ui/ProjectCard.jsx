@@ -49,7 +49,7 @@ const StyledCard = styled.div`
     }
 
     ${LogoContainer} {
-      background-color: var(--color--purple-200);
+      background-color: var(--color--purple-250);
     }
 
     ${Heading} {

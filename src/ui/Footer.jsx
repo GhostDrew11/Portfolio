@@ -10,7 +10,7 @@ import {
 const StyledFooter = styled.footer`
   padding: 12.8rem 0;
   border-top: 1px solid #eee;
-  background-color: var(--color--purple-200);
+  background-color: var(--color--purple-250);
 `;
 
 const FooterContainer = styled.div`

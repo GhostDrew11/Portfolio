@@ -3,6 +3,7 @@ import Heading from "./Heading";
 
 const StyledAbout = styled.section`
   padding: 17.6rem 0;
+  background-color: var(--color--white-25);
 `;
 
 const AboutContainer = styled.div`
@@ -63,7 +64,7 @@ const StyledWrapper = styled.div`
     left: 1.4rem;
     width: 100%;
     height: 100%;
-    border: 0.2rem solid var(--color--purple-400);
+    border: 0.2rem solid var(--color--purple-450);
     border-radius: 0.9rem;
     z-index: -1;
     transition: all 0.3s;

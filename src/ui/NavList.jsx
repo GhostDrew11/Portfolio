@@ -36,7 +36,7 @@ const StyledNavCta = styled(NavHashLink)`
   &:hover,
   &:active {
     color: var(--color--yellow-400);
-    background-color: var(--color--purple-700);
+    background-color: var(--color--purple-750);
   }
 `;
 

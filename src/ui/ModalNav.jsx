@@ -51,7 +51,7 @@ const StyledNavBar = styled.div`
   height: 100dvh;
   box-shadow: -0.8rem 0.1rem 0.3rem 0 var(--color--purple-200-shadow);
   animation: ${slideIn} 0.6s ease-in;
-  background-color: var(--color--purple-200);
+  background-color: var(--color--purple-250);
 `;
 
 const StyledIcon = styled(FontAwesomeIcon)`

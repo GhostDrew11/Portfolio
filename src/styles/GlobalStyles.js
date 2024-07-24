@@ -18,20 +18,25 @@ const GlobalStyles = createGlobalStyle`
       /* purple */
      
       --color--purple-200: #e9d5ff;
+      --color--purple-250: #e9d5ff;
       --color--purple-200-shadow: 	rgb(233, 213, 255, 0.1);
+      --color--purple-450: #c084fc;
       --color--purple-400: #c084fc;
       --color--purple-700: #7e22ce;
+      --color--purple-750: #7e22ce;
 
       /* slate */
       --color--slate-50: #f8fafc;
       --color--slate-100: #f1f5f9;
       --color--slate-600: #475569;
       --color--slate-700: #334155;
+      --color--slate-750: #334155;
       --color--slate-800: #1e293b;
       --color--slate-900: #0f172a;
       
       /* white */
       --color--white: rgb(255,255,255);
+      --color--white-25 : rgba(255, 255, 255);
       --color--white-50 : rgba(255, 255, 255, 0.97);
 
       /* grey */
@@ -41,7 +46,22 @@ const GlobalStyles = createGlobalStyle`
     }
 
     &.dark-mode {
-      /* --color--purple-200: #030712; */
+      --color--purple-200: rgb(254,240,138, 0.8);
+      --color--purple-250: #0A0A0A;
+      --color--purple-400: #334155;
+      --color--purple-450: #facc15;
+      --color--purple-700:  rgb(250,204,21);
+
+      /* slate */
+      --color--slate-900: #fdfdfd;
+      --color--slate-750: #e9e9e9;
+      --color--slate-700: #b5b5b5;
+      --color--slate-600: #A3A5A5;
+      --color--slate-50: #0A0A0A;
+
+      /* white */
+      --color--white-50: rgba(0,0,0,.8);
+      --color--white-25: #0a0a0a;
     }
 
     --border-radius-xl: 1rem;

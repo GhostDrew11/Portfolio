@@ -12,7 +12,7 @@ const StyledHeader = styled.header`
   /* Sticky Header */
   height: 10rem;
   padding: 0 4.8rem;
-  background-color: var(--color--purple-200);
+  background-color: var(--color--purple-250);
 
   ${(props) =>
     props.$sticky &&

@@ -4,7 +4,7 @@ import { NavHashLink } from "react-router-hash-link";
 
 const StyledHero = styled.section`
   padding: 22.4rem 0;
-  background-color: var(--color--purple-200);
+  background-color: var(--color--purple-250);
 `;
 
 const HeroContainer = styled.div`
@@ -60,7 +60,7 @@ const StyledNavCta = styled(NavHashLink)`
   &:hover,
   &:active {
     color: var(--color--yellow-400);
-    background-color: var(--color--purple-700);
+    background-color: var(--color--purple-750);
   }
 `;
 

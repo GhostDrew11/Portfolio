@@ -126,7 +126,7 @@ const StyledParagraph = styled.p`
   border-radius: 0.4rem;
   margin-top: 4.8rem;
   margin-bottom: 3.2rem;
-  background-color: var(--color--purple-200);
+  background-color: var(--color--purple-250);
   padding: 3.2rem 2.4rem;
 `;
 
