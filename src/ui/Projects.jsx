@@ -48,10 +48,8 @@ function Projects() {
   return (
     <StyledProjects id="projects">
       <ProjectsContainer>
-        <ProjectsGrid>
-          <Heading as="h4">Projects</Heading>
-          <Vigor />
-        </ProjectsGrid>
+        <Heading as="h4">Projects</Heading>
+        <Vigor />
       </ProjectsContainer>
     </StyledProjects>
   );
